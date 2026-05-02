@@ -4,24 +4,24 @@
 
 ## Objective
 
-This lab foucuses on the compilation of the program using gdb compiler and helps in understand the core concept of Computer architecture and also the address indexing in the system this experiment helps us in understanding the following points.
+his experiment focuses on compiling and debugging programs using the GDB compiler. It helps in understanding key concepts of computer architecture along with memory addressing and indexing within a system. The main goals of this experiment are:
 
-* Basic GDB commands
-* Compiling C code for Stack, Queue, Linked List using gdb
+Learning basic GDB commands
+Compiling and debugging C programs such as Stack, Queue, and Linked List using GDB
 
 ---
 
 
 ## Background Study
 
-The **GNU Debugger (GDB)** is a powerful tool used to debug programs written in languages like C and C++. It allows programmers to:
+The GNU Debugger (GDB) is a widely used debugging tool for programs written in languages like C and C++. It allows developers to analyze program execution in detail by:
 
-* Execute programs line-by-line
-* Set breakpoints to pause execution
-* Inspect variable values and memory
-* Trace function calls and logic flow
+Running code step-by-step
+Setting breakpoints to pause execution
+Checking variable values and memory contents
+Tracking function calls and program flow
 
-For debugging, programs must be compiled with the `-g` flag, which includes debugging symbols.
+To enable debugging, programs must be compiled with the -g flag, which includes debugging information in the executable.
 
 ---
 
@@ -341,20 +341,16 @@ Create Node → Assign Data → Link Next → Update Head
 
 # CONCLUSION
 
-* GDB is an essential debugging tool for analyzing program behavior.
-
-* It provides deep insights into:
-
-  * Execution flow
-  * Variable states
-  * Memory handling
-
-* Through this experiment:
-
-  * We gained practical experience in debugging
-  * Improved understanding of data structures
-  * Learned how to detect and fix errors efficiently
-
+GDB is a powerful and essential debugging tool for analyzing program behavior.
+It provides detailed insights into:
+Execution flow
+Variable states
+Memory usage
+Through this experiment:
+Practical debugging skills were developed
+Understanding of data structures was improved
+Ability to identify and fix errors was enhanced
+Overall, GDB improves program accuracy and developer efficiency by supporting systematic debugging.
 * Overall, GDB enhances **program reliability and developer productivity** by enabling systematic debugging.
 
 ---
