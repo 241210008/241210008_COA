@@ -30,7 +30,7 @@ The experiments are organized systematically for clarity and ease of navigation:
 
 -**Experiment 06 – Shift Registors**
  Executing different kinds of Shify registors using logisim simulator
- [Experiment 7](./Experiment_07)
+ [Experiment 7](./Experiment_06)
 
 ---
 
