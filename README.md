@@ -28,6 +28,10 @@ The experiments are organized systematically for clarity and ease of navigation:
   Executing different kinds of addressing modes using gdb compiler  
   [View Experiment](./Experiment_05/readme_05.md)
 
+-**Experiment 06 – Shift Registors**
+ Executing different kinds of Shify registors using logisim simulator
+ [Experiment 7](./Experiment_07)
+
 ---
 
 ## 🛠 Tools & Technologies
