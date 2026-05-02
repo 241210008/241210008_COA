@@ -7,23 +7,23 @@
 
 ##  Objective
 
-The objective of this experiment is to design and simulate a **4-bit Ripple Carry Adder (RCA)** using basic logic gates in Logisim Evolution and to analyze the propagation delay associated with carry generation and output computation. The experiment aims to understand how carry propagates through multiple full adders and how it affects the overall speed of the circuit.
+The purpose of this experiment is to design and simulate a 4-bit Ripple Carry Adder (RCA) using basic logic gates in Logisim Evolution, and to study the propagation delay involved in carry generation and output calculation. The experiment helps in understanding how carry signals move across multiple stages and how this influences the overall performance of the circuit.
 
 ---
 
 ## Background Study
 
-A Ripple Carry Adder is a combinational circuit used to perform binary addition of multi-bit numbers. It is constructed by cascading multiple full adders, where the carry output of one stage becomes the carry input of the next stage. In a 4-bit Ripple Carry Adder, four full adders are connected in series to add two 4-bit binary numbers along with an initial carry input.
+A Ripple Carry Adder is a combinational circuit used for adding binary numbers of multiple bits. It is formed by connecting several full adders in sequence, where the carry output of one full adder becomes the carry input of the next. In a 4-bit RCA, four full adders are connected to perform the addition of two 4-bit numbers along with an initial carry input.
 
-Each full adder computes a sum and a carry based on its inputs. However, the major drawback of this design is the propagation delay caused by the sequential flow of carry from the least significant bit (LSB) to the most significant bit (MSB). The final output is only obtained after the carry has propagated through all stages, making the circuit slower for larger bit sizes.
+Each full adder produces a sum and a carry output based on its inputs. One limitation of this design is the delay caused due to the step-by-step propagation of the carry from the least significant bit (LSB) to the most significant bit (MSB). The final result is available only after the carry passes through all stages, which makes the circuit slower as the number of bits increases.
 
 ---
 
 ## Circuit Description
 
-In this experiment, a 4-bit Ripple Carry Adder was implemented using basic logic gates such as AND, OR, and XOR. Each stage of the circuit represents a full adder, where two input bits and a carry input are processed to generate a sum and carry output. The carry output of each stage is connected to the next stage, forming a chain-like structure.
+In this experiment, a 4-bit Ripple Carry Adder was constructed using basic logic gates such as AND, OR, and XOR. Each stage functions as a full adder, taking two input bits along with a carry input to produce a sum and a carry output. The carry output from each stage is connected to the next stage, forming a sequential chain.
 
-The circuit was simulated using Logisim, where different combinations of binary inputs were applied to verify the correctness of the sum and carry outputs. The propagation of carry through each stage was observed, highlighting the delay in obtaining the final result.
+The circuit was simulated in Logisim, where various input combinations were applied to verify the correctness of the outputs. The carry propagation through each stage was carefully observed, demonstrating the delay in producing the final output.
 
 ---
 
@@ -55,5 +55,5 @@ The 4-bit Ripple Carry Adder was successfully designed and simulated using Logis
 
 ## 📚 Conclusion
 
-This experiment provided a clear understanding of how multi-bit addition is performed using Ripple Carry Adders and how carry propagation affects the speed of computation. It emphasized the limitations of RCA in terms of delay and the need for more efficient adder designs in high-speed systems.
+This experiment helped in understanding the working of multi-bit addition using Ripple Carry Adders and the effect of carry propagation on computation speed. It also highlighted the limitations of RCA in terms of delay, emphasizing the importance of more advanced adder designs for high-speed applications.
 
